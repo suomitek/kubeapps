@@ -4,3 +4,4 @@ devel/*
 
 # OSX
 .DS_Store
+.idea
