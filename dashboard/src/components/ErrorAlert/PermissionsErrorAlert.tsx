@@ -54,7 +54,7 @@ class PermissionsErrorPage extends React.Component<IPermissionsErrorPage> {
               target="_blank"
               rel="noopener noreferrer"
             >
-              access control in Kubeapps
+              access control in Suomitek-appboard
             </a>
             .
           </p>

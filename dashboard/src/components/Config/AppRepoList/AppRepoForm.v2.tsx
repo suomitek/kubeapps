@@ -376,7 +376,7 @@ export function AppRepoForm({
           </Row>
         </div>
       </div>
-      {/* Only when using a namespace different than the Kubeapps namespace (Global)
+      {/* Only when using a namespace different than the Suomitek-appboard namespace (Global)
               the repository can be associated with Docker Registry Credentials since
               the pull secret won't be available in all namespaces */
       namespace !== kubeappsNamespace && (
@@ -386,7 +386,7 @@ export function AppRepoForm({
           </label>
           <span className="clr-form-description">
             Select existing secret(s) to access a private Docker registry and pull images from it.
-            Note that this functionality is supported for Kubeapps with Helm3 only, more info{" "}
+            Note that this functionality is supported for Suomitek-appboard with Helm3 only, more info{" "}
             <a
               href="https://github.com/kubeapps/kubeapps/blob/master/docs/user/private-app-repository.md"
               target="_blank"

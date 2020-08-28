@@ -141,8 +141,8 @@ class AppRepoList extends React.Component<IAppRepoListProps> {
         <MessageAlert header="AppRepositories can be created on the default cluster only">
           <div>
             <p className="margin-v-normal">
-              Kubeapps' multi-cluster support currently enables creation of custom app repositories
-              on the cluster on which Kubeapps is installed.
+              Suomitek-appboard' multi-cluster support currently enables creation of custom app repositories
+              on the cluster on which Suomitek-appboard is installed.
             </p>
             <p className="margin-v-normal">
               You cannot currently create an app repository on an additional cluster.
@@ -151,7 +151,7 @@ class AppRepoList extends React.Component<IAppRepoListProps> {
                   You can create an app repository with charts available for installation across
                   clusters and namespaces on the{" "}
                   <Link to={url.app.config.apprepositories(kubeappsCluster, definedNamespaces.all)}>
-                    cluster on which Kubeapps is installed
+                    cluster on which Suomitek-appboard is installed
                   </Link>
                   , if you have the appropriate authorization.
                 </>
@@ -231,7 +231,7 @@ class AppRepoList extends React.Component<IAppRepoListProps> {
                 selector at the top and clicking on "All Namespaces".
               </p>
               <p className="margin-v-normal">
-                Kubeapps now enables you to create App Repositories in your own namespace that will
+                Suomitek-appboard now enables you to create App Repositories in your own namespace that will
                 be available in your own namespace and, in the future, optionally available in other
                 namespaces to which you have access. You can read more information in the{" "}
                 <a href="https://github.com/kubeapps/kubeapps/blob/master/docs/user/private-app-repository.md">

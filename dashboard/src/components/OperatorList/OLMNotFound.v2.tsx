@@ -16,7 +16,7 @@ export default function OLMNotFound() {
           >
             Operator Lifecycle Manager
           </a>{" "}
-          to browse, provision and manage Operators within Kubeapps. <br />
+          to browse, provision and manage Operators within Suomitek-appboard. <br />
           To install the OLM, check{" "}
           <a
             href="https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/install/install.md"

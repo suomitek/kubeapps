@@ -11,7 +11,7 @@ class ServiceBrokersNotFoundAlert extends React.Component {
           <a href="https://github.com/osbkit/brokerlist" target="_blank" rel="noopener noreferrer">
             Service Broker
           </a>{" "}
-          to browse, provision and manage external services within Kubeapps.
+          to browse, provision and manage external services within Suomitek-appboard.
         </p>
       </NotFoundErrorAlert>
     );

@@ -15,7 +15,7 @@ const Footer: React.SFC<IFooterProps> = props => {
         <div className="row collapse-b-phone-land align-center">
           <div className="col-6">
             <h4 className="inverse margin-reset">
-              <img src={logo} alt="Kubeapps logo" className="osFooter__logo" />
+              <img src={logo} alt="Suomitek-appboard logo" className="osFooter__logo" />
             </h4>
             <p className="type-small margin-reset">
               Made with <Heart className="icon icon-small" /> by Bitnami and{" "}
@@ -37,7 +37,7 @@ const Footer: React.SFC<IFooterProps> = props => {
             >
               <svg
                 role="img"
-                aria-label="Kubeapps on Twitter"
+                aria-label="Suomitek-appboard on Twitter"
                 viewBox="0 0 54 54"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -52,7 +52,7 @@ const Footer: React.SFC<IFooterProps> = props => {
             <a href="https://github.com/kubeapps/kubeapps" className="socialIcon margin-small">
               <svg
                 role="img"
-                aria-label="Kubeapps on GitHub"
+                aria-label="Suomitek-appboard on GitHub"
                 viewBox="0 0 54 54"
                 xmlns="http://www.w3.org/2000/svg"
               >

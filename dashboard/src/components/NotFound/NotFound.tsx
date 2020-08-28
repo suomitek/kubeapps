@@ -6,7 +6,7 @@ class NotFound extends React.Component {
     return (
       <div className="text-c align-center margin-t-huge">
         <h3>The page you are looking for can't be found.</h3>
-        <img src={logo404} alt="Kubeapps logo" />
+        <img src={logo404} alt="Suomitek-appboard logo" />
       </div>
     );
   }

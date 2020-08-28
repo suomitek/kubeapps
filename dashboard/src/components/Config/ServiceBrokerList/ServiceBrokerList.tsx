@@ -106,12 +106,12 @@ class ServiceBrokerList extends React.Component<IServiceBrokerListProps> {
     if (cluster !== kubeappsCluster) {
       if (kubeappsCluster) {
         return (
-          <MessageAlert header="Service brokers can be created on the cluster on which Kubeapps is installed only">
+          <MessageAlert header="Service brokers can be created on the cluster on which Suomitek-appboard is installed only">
             <div>
               <p className="margin-v-normal">
-                Kubeapps' Service Broker support enables the addition of{" "}
+                Suomitek-appboard' Service Broker support enables the addition of{" "}
                 <Link to={url.app.config.brokers(kubeappsCluster)}>
-                  service brokers on the cluster on which Kubeapps is installed only
+                  service brokers on the cluster on which Suomitek-appboard is installed only
                 </Link>
                 .
               </p>
@@ -123,8 +123,8 @@ class ServiceBrokerList extends React.Component<IServiceBrokerListProps> {
           <MessageAlert header="Service brokers are not supported on this installation">
             <div>
               <p className="margin-v-normal">
-                Kubeapps' Service Broker support enables the addition of service brokers on the
-                cluster on which Kubeapps is installed only. This installation of Kubeapps is
+                Suomitek-appboard' Service Broker support enables the addition of service brokers on the
+                cluster on which Suomitek-appboard is installed only. This installation of Suomitek-appboard is
                 configured without access to that cluster.
               </p>
             </div>

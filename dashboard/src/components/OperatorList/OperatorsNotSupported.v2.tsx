@@ -13,7 +13,7 @@ function OperatorNotSupported(props: IOperatorNotSupportedProps) {
     <Alert theme="warning">
       <h5>Operators are supported on the default cluster only</h5>
       <p>
-        Kubeapps' Operator support enables the addition of{" "}
+        Suomitek-appboard' Operator support enables the addition of{" "}
         <Link to={url.app.operators.list("default", props.namespace)}>
           operators on the default cluster only
         </Link>

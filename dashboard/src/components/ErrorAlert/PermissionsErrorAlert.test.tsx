@@ -51,7 +51,7 @@ it("renders a link to access control documentation", () => {
     <PermissionsErrorAlert roles={roles} action="test" namespace="test" rawMessage="" />,
   );
   expect(wrapper.html()).toMatch(
-    /See the documentation for more info on.*access control in Kubeapps./,
+    /See the documentation for more info on.*access control in Suomitek-appboard./,
   );
   expect(wrapper.html()).toContain(
     '<a href="https://github.com/kubeapps/kubeapps/blob/master/docs/user/access-control.md" target="_blank" rel="noopener noreferrer">',

@@ -23,7 +23,7 @@ class ConfigLoader extends React.Component<IConfigLoaderProps> {
         <UnexpectedErrorPage
           raw={true}
           showGenericMessage={true}
-          text={`Unable to load Kubeapps configuration: ${error.message}`}
+          text={`Unable to load Suomitek-appboard configuration: ${error.message}`}
         />
       );
     }

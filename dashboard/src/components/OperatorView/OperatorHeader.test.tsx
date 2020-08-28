@@ -9,7 +9,7 @@ const defaultProps = {
   cluster: "default",
   namespace: "kubeapps",
   version: "1.0.0",
-  provider: "Kubeapps",
+  provider: "Suomitek-appboard",
   namespaced: false,
   push: jest.fn(),
 };

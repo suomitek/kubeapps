@@ -12,12 +12,12 @@ interface IOperatorNotSupportedProps {
 function OperatorNotSupported(props: IOperatorNotSupportedProps) {
   if (props.kubeappsCluster) {
     return (
-      <MessageAlert header="Operators are supported on the cluster on which Kubeapps is installed only">
+      <MessageAlert header="Operators are supported on the cluster on which Suomitek-appboard is installed only">
         <div>
           <p className="margin-v-normal">
-            Kubeapps' Operator support enables the addition of{" "}
+            Suomitek-appboard' Operator support enables the addition of{" "}
             <Link to={url.app.operators.list(props.kubeappsCluster, props.namespace)}>
-              operators on the cluster on which Kubeapps is installed only
+              operators on the cluster on which Suomitek-appboard is installed only
             </Link>
             .
           </p>
@@ -29,8 +29,8 @@ function OperatorNotSupported(props: IOperatorNotSupportedProps) {
       <MessageAlert header="Operators are not supported on this installation">
         <div>
           <p className="margin-v-normal">
-            Kubeapps' Operator support enables the addition of operators on the cluster on which
-            Kubeapps is installed only. This installation of Kubeapps is configured without access
+            Suomitek-appboard' Operator support enables the addition of operators on the cluster on which
+            Suomitek-appboard is installed only. This installation of Suomitek-appboard is configured without access
             to that cluster.
           </p>
         </div>

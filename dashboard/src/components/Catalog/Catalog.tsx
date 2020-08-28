@@ -100,7 +100,7 @@ class Catalog extends React.Component<ICatalogProps, ICatalogState> {
           children={
             <div>
               <h5>Charts not found.</h5>
-              Manage your Helm chart repositories in Kubeapps by visiting the{" "}
+              Manage your Helm chart repositories in Suomitek-appboard by visiting the{" "}
               <Link to={app.config.apprepositories(cluster, namespace)}>
                 App repositories configuration
               </Link>{" "}

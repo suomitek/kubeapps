@@ -110,7 +110,7 @@ function AppRepoList({
         <Alert theme="warning">
           <h5>App Repositories are available on the default cluster only</h5>
           <p>
-            Currently the multi-cluster support in Kubeapps supports AppRepositories on the default
+            Currently the multi-cluster support in Suomitek-appboard supports AppRepositories on the default
             cluster only.
           </p>
           <p>
@@ -138,7 +138,7 @@ function AppRepoList({
               <LoadingWrapper loaded={!isFetching}>
                 <h3>Global Repositories</h3>
                 <p>
-                  Global repositories are available for all Kubeapps users.{" "}
+                  Global repositories are available for all Suomitek-appboard users.{" "}
                   {kubeappsCluster &&
                     (kubeappsCluster !== cluster || namespace !== kubeappsNamespace) && (
                       <>

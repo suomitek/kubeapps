@@ -34,7 +34,7 @@ function AppListGrid(props: IAppListProps) {
     return (
       <div className="applist-empty">
         <Alert>Deploy applications on your Kubernetes cluster with a single click.</Alert>
-        <h2>Welcome To Kubeapps</h2>
+        <h2>Welcome To Suomitek-appboard</h2>
         <p>
           Start browsing your <Link to={url.app.catalog(cluster, namespace)}>favourite apps</Link>{" "}
           or check the{" "}

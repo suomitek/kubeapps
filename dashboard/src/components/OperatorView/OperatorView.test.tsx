@@ -25,7 +25,7 @@ const defaultOperator = {
   },
   status: {
     provider: {
-      name: "Kubeapps",
+      name: "Suomitek-appboard",
     },
     defaultChannel: "beta",
     channels: [

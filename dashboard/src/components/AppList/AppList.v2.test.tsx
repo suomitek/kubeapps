@@ -93,7 +93,7 @@ context("when fetched but not apps available", () => {
         <AppList {...props} />
       </Router>,
     );
-    expect(wrapper.find(".applist-empty").text()).toContain("Welcome To Kubeapps");
+    expect(wrapper.find(".applist-empty").text()).toContain("Welcome To Suomitek-appboard");
   });
 
   it("shows the search filter and deploy button", () => {

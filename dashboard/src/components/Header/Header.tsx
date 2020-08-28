@@ -76,7 +76,7 @@ class Header extends React.Component<IHeaderProps, IHeaderState> {
           <header className={header}>
             <div className="header__logo">
               <NavLink to="/">
-                <img src={logo} alt="Kubeapps logo" />
+                <img src={logo} alt="Suomitek-appboard logo" />
               </NavLink>
             </div>
             {showNav && (

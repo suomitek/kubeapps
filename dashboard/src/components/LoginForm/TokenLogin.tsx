@@ -11,7 +11,7 @@ function TokenLogin(props: ILoginFormProps) {
   return (
     <section className="title" aria-labelledby="login-title" aria-describedby="login-desc">
       <h3 id="login-title" className="welcome">
-        Welcome to <span>Kubeapps</span>
+        Welcome to <span>Suomitek-appboard</span>
       </h3>
       <p id="login-desc" className="hint">
         Your cluster operator should provide you with a Kubernetes API token.

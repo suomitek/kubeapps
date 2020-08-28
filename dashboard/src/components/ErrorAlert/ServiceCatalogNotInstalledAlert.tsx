@@ -16,7 +16,7 @@ class ServiceCatalogNotInstalledAlert extends React.Component {
             >
               Kubernetes Service Catalog
             </a>{" "}
-            to browse, provision and manage external services within Kubeapps.
+            to browse, provision and manage external services within Suomitek-appboard.
           </p>
         </div>
       </NotFoundErrorAlert>

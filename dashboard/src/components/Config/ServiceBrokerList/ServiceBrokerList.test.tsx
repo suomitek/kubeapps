@@ -64,7 +64,7 @@ context("if the service brokers are accessed on an additional cluster", () => {
     const msgAlert = wrapper.find(MessageAlert);
     expect(msgAlert).toExist();
     expect(msgAlert.prop("header")).toEqual(
-      "Service brokers can be created on the cluster on which Kubeapps is installed only",
+      "Service brokers can be created on the cluster on which Suomitek-appboard is installed only",
     );
   });
 

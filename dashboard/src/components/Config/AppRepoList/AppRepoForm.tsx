@@ -275,7 +275,7 @@ export class AppRepoForm extends React.Component<IAppRepoFormProps, IAppRepoForm
                 </div>
               </div>
             </div>
-            {/* Only when using a namespace different than the Kubeapps namespace (Global)
+            {/* Only when using a namespace different than the Suomitek-appboard namespace (Global)
               the repository can be associated with Docker Registry Credentials since
               the pull secret won't be available in all namespaces */
             namespace !== kubeappsNamespace && (
@@ -283,7 +283,7 @@ export class AppRepoForm extends React.Component<IAppRepoFormProps, IAppRepoForm
                 <p className="margin-b-small">Associate Docker Registry Credentials (optional):</p>
                 <span className="AppRepoInputDescription">
                   Select existing secret(s) to access a private Docker registry and pull images from
-                  it. Note that this functionality is supported for Kubeapps with Helm3 only, more
+                  it. Note that this functionality is supported for Suomitek-appboard with Helm3 only, more
                   info{" "}
                   <a
                     href="https://github.com/kubeapps/kubeapps/blob/master/docs/user/private-app-repository.md"

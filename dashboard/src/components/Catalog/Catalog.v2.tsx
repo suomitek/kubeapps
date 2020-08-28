@@ -132,7 +132,7 @@ function Catalog(props: ICatalogProps) {
             <CdsIcon shape="bundle" />
             <p>The current catalog is empty.</p>
             <p>
-              Manage your Helm chart repositories in Kubeapps by visiting the App repositories
+              Manage your Helm chart repositories in Suomitek-appboard by visiting the App repositories
               configuration page.
             </p>
             <Link to={app.config.apprepositories(cluster, namespace)}>

@@ -53,7 +53,7 @@ function Header(props: IHeaderProps) {
         <header className="header header-7">
           <div className="branding">
             <NavLink to="/">
-              <img src={logo} alt="Kubeapps logo" className="kubeapps__logo" />
+              <img src={logo} alt="Suomitek-appboard logo" className="kubeapps__logo" />
             </NavLink>
           </div>
           {showNav && (

@@ -95,12 +95,12 @@ class DeploymentForm extends React.Component<IDeploymentFormProps, IDeploymentFo
           {error.constructor === InternalServerError ? (
             <span>
               The server returned an internal error. If the problem persists, please contant
-              Kubeapps maintainers.
+              Suomitek-appboard maintainers.
             </span>
           ) : (
             <span>
               If you are unable to install the application, contact the chart maintainers or if you
-              think the issue is related to Kubeapps, please open an{" "}
+              think the issue is related to Suomitek-appboard, please open an{" "}
               <a
                 href="https://github.com/kubeapps/kubeapps/issues/new"
                 target="_blank"

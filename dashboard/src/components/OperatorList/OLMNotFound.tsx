@@ -16,7 +16,7 @@ class OLMNotFound extends React.Component {
             >
               Operator Lifecycle Manager
             </a>{" "}
-            to browse, provision and manage Operators within Kubeapps.
+            to browse, provision and manage Operators within Suomitek-appboard.
           </p>
           To install the OLM, execute the following command in a terminal with <code>kubectl</code>{" "}
           available and configured:

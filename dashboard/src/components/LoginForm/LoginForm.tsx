@@ -85,7 +85,7 @@ class LoginForm extends React.Component<ILoginFormProps, ILoginFormState> {
           >
             Click here
           </a>{" "}
-          for more info about using authentication providers with Kubeapps.
+          for more info about using authentication providers with Suomitek-appboard.
         </p>
         <a href={this.props.oauthLoginURI} className="button button-accent">
           Login

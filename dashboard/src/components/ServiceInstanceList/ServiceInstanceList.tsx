@@ -114,7 +114,7 @@ class ServiceInstanceList extends React.PureComponent<
               <MessageAlert header="Provision External Services from the Kubernetes Service Catalog">
                 <div>
                   <p className="margin-v-normal">
-                    Kubeapps lets you browse, provision and manage external services provided by the
+                    Suomitek-appboard lets you browse, provision and manage external services provided by the
                     Service Brokers configured in your cluster.
                   </p>
                   <div className="padding-t-normal padding-b-normal">

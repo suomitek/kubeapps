@@ -19,7 +19,7 @@ export const genericMessage = (
       <li>Check for network issues.</li>
       <li>Check your browser's JavaScript console for additional errors.</li>
       <li>
-        Check the health of Kubeapps components{" "}
+        Check the health of Suomitek-appboard components{" "}
         <code>helm status &lt;kubeapps_release_name&gt;</code>.
       </li>
       <li>
