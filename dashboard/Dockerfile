@@ -2,7 +2,7 @@ FROM bitnami/node:12.18.3 AS build
 WORKDIR /app
 
 COPY package.json yarn.lock /app/
-RUN yarn config set registry https://registry.npm.taobao.org/
+# RUN yarn config set registry https://registry.npm.taobao.org/
 RUN yarn install --frozen-lockfile
 
 RUN mkdir /app/src
